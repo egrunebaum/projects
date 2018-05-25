@@ -1,0 +1,122 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+header {
+	text-align: center;
+}
+
+body {
+ background-color: white;
+ margin: 200px;
+ font-family: 'SF Pro Text', Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width: 100%;
+	height: 900px;
+}
+.iphone{
+  background-image: url("../images/iPhone.png");
+}
+.top{
+  background-image: url("../images/map1.png");
+  padding-bottom: 294px;
+  background-repeat: no-repeat;
+  width: 600px;
+
+}
+.top h1{
+  	font-size: 20px;
+    font-family: 'SF Pro Text';
+    text-align: center;
+    padding-top: 32px;
+    font-weight: 300;
+}
+hr {
+	clear: both;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.route {
+  float:left;
+  padding-left: 21px;
+	color: white;
+	font-size: 21px;
+	line-height:2.5em;
+	background-color: #6ca0dc;
+  font-family: 'SF Pro Text';
+  font-weight: 500;
+  margin: 0 0 0 0;
+
+}
+.arrival {
+  float:right;
+  padding-right: 21px;
+  padding-left: 208px;
+	color: white;
+	font-size: 21px;
+	line-height: 2.5em;
+	background-color: #6ca0dc;
+  font-family: 'SF Pro Text';
+  font-weight: 500;
+  margin: 0 0 0 0;
+}
+
+
+.busNumber {
+	float:left;
+	font-size: 18px;
+  color: #0D0B27;
+  margin-left: 18px;
+  line-height: .1;
+  margin: 20px 0 30px 20px;
+}
+
+.busLine {
+  float: left;
+	font-weight: 100;
+  font-size: 16px;
+  clear: left;
+  color: #0D0B27;
+  margin-left: 20px;
+  line-height: .1;
+  margin: 0px 0 20px 20px;
+}
+.busChange{
+  float: right;
+  font-size: 16px;
+  clear: right;
+  color: #0D0B27;
+  margin-right: 20px;
+  line-height: .1;
+  margin: 0px 20px 20px 20px;
+  color: red;
+}
+.onTime{
+  float: right;
+  font-size: 16px;
+  clear: right;
+  color: #0D0B27;
+  margin-right: 20px;
+  line-height: .1;
+  margin: 0px 20px 20px 20px;
+  color: green;
+}
+
+
+.busArrival {
+	float: right;
+  margin-right: 18px;
+  color: #0D0B27;
+  font-size: 18px;
+  line-height: .1;
+  margin: 20px 20px 0 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
