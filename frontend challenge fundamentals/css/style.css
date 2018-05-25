@@ -44,7 +44,7 @@ hr {
 	color: white;
 	font-size: 21px;
 	line-height:2.5em;
-	background-color: #6ACB74;
+	background-color: #6ca0dc;
   font-family: 'SF Pro Text';
   font-weight: 500;
   margin: 0 0 0 0;
@@ -53,11 +53,11 @@ hr {
 .arrival {
   float:right;
   padding-right: 21px;
-  padding-left: 210px;
+  padding-left: 208px;
 	color: white;
-	font-size: 20px;
+	font-size: 21px;
 	line-height: 2.5em;
-	background-color: #6ACB74;
+	background-color: #6ca0dc;
   font-family: 'SF Pro Text';
   font-weight: 500;
   margin: 0 0 0 0;
@@ -68,7 +68,7 @@ hr {
 	float:left;
 	font-size: 18px;
   color: #0D0B27;
-  margin-left: 20px;
+  margin-left: 18px;
   line-height: .1;
   margin: 20px 0 30px 20px;
 }
@@ -83,10 +83,33 @@ hr {
   line-height: .1;
   margin: 0px 0 20px 20px;
 }
+.busChange{
+  float: right;
+	font-weight: 100;
+  font-size: 16px;
+  clear: right;
+  color: #0D0B27;
+  margin-right: 20px;
+  line-height: .1;
+  margin: 0px 20px 20px 20px;
+  color: red;
+}
+.onTime{
+  float: right;
+	font-weight: 100;
+  font-size: 16px;
+  clear: right;
+  color: #0D0B27;
+  margin-right: 20px;
+  line-height: .1;
+  margin: 0px 20px 20px 20px;
+  color: green;
+}
+
 
 .busArrival {
 	float: right;
-  margin-right: 20px;
+  margin-right: 18px;
   color: #0D0B27;
   font-size: 18px;
   line-height: .1;
