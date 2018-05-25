@@ -17,13 +17,11 @@ body {
 	height: 900px;
 }
 
-.iphone{
-  background-image: url("../images/iPhone.png");
-  width: 600px;
-}
 .top{
   background-image: url("../images/map1.png");
-  padding-bottom: 300px
+  padding-bottom: 294px;
+  background-repeat: no-repeat;
+  width: 600;
 
 }
 .top h1{
@@ -85,7 +83,6 @@ hr {
 }
 .busChange{
   float: right;
-	font-weight: 100;
   font-size: 16px;
   clear: right;
   color: #0D0B27;
@@ -96,7 +93,6 @@ hr {
 }
 .onTime{
   float: right;
-	font-weight: 100;
   font-size: 16px;
   clear: right;
   color: #0D0B27;
